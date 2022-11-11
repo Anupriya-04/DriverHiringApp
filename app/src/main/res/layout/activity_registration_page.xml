@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/img"
     tools:context=".RegistrationPage">
 
     <TextView
@@ -17,6 +18,7 @@
         android:layout_marginBottom="24dp"
         android:paddingBottom="20dp"
         android:text="Registration"
+        android:textColor="@color/cardview_light_background"
         android:textAlignment="center"
         android:textSize="45dp"
         android:textStyle="bold"
@@ -36,6 +38,9 @@
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="Name"
+        android:textColorHint="@color/cardview_light_background"
+        android:background="@drawable/textbg"
+        android:textColor="@color/cardview_light_background"
         android:inputType="textPersonName"
         android:paddingBottom="10dp"
         app:layout_constraintBottom_toTopOf="@+id/gender"
